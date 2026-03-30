@@ -1,0 +1,46 @@
+isUserLoggedIn
+    this middleware function is used to manage 2 things
+        a. check user logged in or not
+        b. get the user id if logged in
+
+isAdminLoggedIn
+    this middleware function is used for
+        a. check admin logged in or not
+        
+
+
+1.  /api/v1/city
+        /
+
+2./api/v1/user
+    /                       get     --isUserLoggedIn
+    /                       post    (signup)
+    /deleteall              get     (dev purpse)
+    /profilepic             put     --isUserLoggedIn
+    /changestatus/:id       put     --isAdminLoggedIn(admin)
+
+
+
+/api/v1/category
+/api/v1/subcategory
+/api/v1/auth
+/api/v1/profile
+/api/v1/adminauth
+/api/v1/product
+/api/v1/admin
+/api/v1/forgotpassword
+/api/v1/order
+
+
+
+
+
+/api/v1/college     --- 10
+
+
+/api/v1/paid_college/apikey
++
+domain
+
+/api/v1/paid_college/<apikey>
+
